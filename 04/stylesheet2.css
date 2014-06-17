@@ -1,0 +1,106 @@
+body {
+	background: #666;
+}
+
+.frame {
+	background: #fff;
+	margin: auto;
+	width: 775px;
+	padding: 80px 100px;
+}
+
+.contents {
+	padding: 10px 0 10px 0;
+}
+
+.titles {
+	padding: 15px 0 15px 0;
+}
+
+.legal {
+	padding: 10px 0 0 0;
+}
+
+section h1 {
+	color: #930;
+	font-family: georgia;
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.title {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.subtitle {
+	color: #333;
+	font-family: helvetica;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: inherit;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	color: #333;
+	font-family: georgia;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+h4 {
+	color: #999;
+	font-family: georgia;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+ol, ul {
+	color: #333;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+li {
+	color: #333;
+	font-family: helvetica;
+	font-size: 14px;
+	letter-spacing: 1.8px;
+}
+
+hr {
+	color: #e5e5e5;
+   	height: 1px; 
+   	max-height: 1px;
+}
+
+a {
+	color: #930;
+}
+
+p {
+	color: #333;
+	font-family: helvetica;
+	font-size: 14px;
+	letter-spacing: 1.8px;
+}
+
+.quote_background {
+	background: #f6f6f6;
+	border-left: 10px;
+	border-color: #f6f6f6 #f6f6f6 #f6f6f6 #e3e3e3;
+	border-style:solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+blockqoute p {
+	/*background: #f6f6f6;*/
+	color: #333;
+	font-family: georgia;
+	font-size: 16px;
+	font-style: italic;
+}

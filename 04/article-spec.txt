@@ -14,22 +14,22 @@ Page Title
 Section Title
 	- Georgia Bold, 28px, 1, #333
 
-Sub-Section Title
+Sub-Section Title //
 	- Georgia Bold Italic, 22px, 1, #333
 
-List Title
+List Title //h4
 	- Georgia Bold, all caps, 14px, 1, #999
 
-Paragraph
+Paragraph //p
 	- Helvetica, 14px, 1.8, #333
 
-Lists
+Lists //li
 	- Helvetica, 14px, 1.8, #333
 
 Links
 	- #930
 
-Quotes
+Quotes //blockquote
 	- Georgia Italic, 16px, 1.8, #333
 	- Background #f6f6f6
 	- Left border, 10px, #e3e3e3
