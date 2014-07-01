@@ -1,0 +1,261 @@
+.intro {
+	margin: 0 auto;
+	width: 500px;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+header {
+	background-image:url('./images/beans.jpg');
+	background-color: #241519;
+	height: 450px;
+	margin: 50px auto;
+	position: relative;
+	width: 940px;
+}
+
+.logo {
+	display: block;
+	margin: 50px auto;
+	width: 280px;
+	height: 100px;	
+	padding-top: 175px;
+}
+
+.grinders_name {
+	font-family: Georgia, serif;
+	font-size: 32px;
+	line-height: 1px;
+	color: #261913;
+	margin: 50px auto;
+}
+
+.statement {
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #666666;
+	max-width: 500px;
+	text-align: center;
+}
+
+.menu_section {
+	background: #F6F6F6;
+	width: 780px;
+	margin: 50px auto 120px;
+}
+
+.price {
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #999999;
+	float: right;
+}
+
+.coffee_bar_list {
+	padding: 8px;
+}
+
+.coffee_bar_item {
+	font-family: Helvetica;
+	font-style: sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #666666;
+	width: 200px;
+	display: inline-block;	
+	padding-right: 40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-right: 20px;
+	margin-top: 4px;
+}
+
+.pour-over_coffee {
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	
+}
+.french_press {
+	border-bottom: solid;
+	border-bottom-width: 1px;
+}
+
+.espresso_bar_item {
+	font-family: Helvetica;
+	font-style: sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #666666;
+	width: 200px;
+	display: inline-block;	
+	padding-right: 40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-right: 20px;
+	margin-top: 4px;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+}
+
+.macchiato {
+	border: none;
+}
+.chai {
+	border: none;
+}
+
+hr {
+	border-bottom: 1px solid black;
+	display: block;
+	
+}
+
+h3 {
+	font-family: Georgia, serif;
+	font-size: 28px;
+	line-height: 1;
+	color: #6D3B1C;
+	text-align: center;
+	padding-top: 70px;
+}
+
+ul {
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #666666;
+	padding: 0; margin: 0;
+	list-style-type: none;
+}
+
+.menu_text_box {
+	width: 570px;
+	margin: 0 auto;
+}
+
+.espresso_bar_list {
+	padding-bottom: 100px;
+}
+
+h4 {
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 1;
+	color: #261913;
+	width: 240px;
+}
+
+.hours_location_list {
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	float: left;
+	color: #666666;
+	width: 300px;
+}
+
+.hours_location_section {
+	margin-left: 250px;
+	margin-right: 250px;
+	width: 620px;
+	margin: 0 auto;
+}
+
+.hours_location_title {
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #261913;
+}
+
+.directions {
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #603F26;
+	background: #FFFFFF;
+	border-color: #603F26;
+	border-top-width: 3px;
+   	border-right-width: 3px;
+   	border-bottom-width: 3px;
+   	border-left-width: 3px;
+   	border-style: solid;
+   	display: inline-block;
+   	width: 144px;
+   	height: 50px;
+   	margin: 0 auto;
+   	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+    
+
+}
+
+.interior {
+	float: right;
+	padding-top: 0;
+	margin-top: -50px;
+	width: 300px;
+}
+
+p {
+	font-family: Helvetica, serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #6D3B1C;
+}
+
+footer {
+	background-color: #241915;
+	height: 240px;
+	width: auto;
+	margin-top: 122px;
+	
+}
+
+.footer_text_box {
+
+	width: 936px;
+	margin: 0 auto;
+}
+
+.copy_links_list {
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	padding-left: 600px;
+	
+}
+
+.link {
+	display: inline-block;	
+	margin-top: 70px;
+	margin-right: 10px;
+	color: #FFFFFF;
+}
+
+.copy {
+	float: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	margin-top: 70px;
+	color: #FFFFFF;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
