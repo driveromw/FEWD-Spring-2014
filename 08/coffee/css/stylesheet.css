@@ -6,21 +6,23 @@
 body {
 	background-color: #FFFFFF;
 }
+
 header {
-	background-image:url('./images/beans.jpg');
+	background-image:url('../images/beans.jpg');
 	background-color: #241519;
 	height: 450px;
-	margin: 50px auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	position: relative;
-	width: 940px;
+	/*width: 940px;*/
 }
 
 .logo {
 	display: block;
 	margin: 50px auto;
-	width: 280px;
+	/*width: 280px;*/
 	height: 100px;	
-	padding-top: 175px;
+	/*padding-top: 175px;*/
 }
 
 .grinders_name {
@@ -28,7 +30,9 @@ header {
 	font-size: 32px;
 	line-height: 1px;
 	color: #261913;
-	margin: 50px auto;
+	/*margin: 50px auto;*/
+	margin-top:  50px;
+	margin-bottom: 50px;
 }
 
 .statement {
@@ -249,10 +253,9 @@ a {
 	color: #FFFFFF;
 }
 
-.clearfix:after {
-   content: " "; /* Older browser do not support empty content */
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+@media screen and (min-width: 740px) {
+	/* Target screens >= 740 pixel screens wide */
+	.coffee_bar_item {
+		
+	}
 }
