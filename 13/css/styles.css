@@ -1,0 +1,190 @@
+.niceShotTitle {
+	font-family: Roboto Condensed;
+	font-size: 70px;
+	font-weight: lighter;
+	line-height: 1;
+	color: #ffffff;
+
+}
+
+.niceShotText {
+	font-family: Roboto;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #ffffff;
+
+}
+
+.downloadNowButton {
+	font-family: Roboto;
+	font-size: 20px;
+	color: #E77E04;
+
+}
+
+.tagItAllTitle {
+	font-family: Roboto Condensed;
+	font-weight: lighter;
+	font-size: 26px;
+	color: #E77E04;
+
+}
+
+.tagItAllText {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.5;
+	color: 777777;
+
+}
+
+.cloudSyncTitle {
+	font-family: Roboto Condensed;
+	font-weight: lighter;
+	font-size: 26px;
+	color: #E77E04;
+
+}
+
+.cloudSynchText {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.5;
+	color: 777777;
+
+}
+
+.photoMapTitle {
+	font-family: Roboto Condensed;
+	font-weight: lighter;
+	font-size: 26px;
+	color: #E77E04;
+
+}
+
+.photoMapText {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #777777;
+
+}
+
+.captureLifeTitle {
+	font-family: Roboto Condensed;
+	font-weight: lighter;
+	font-size: 36px;
+	line-height: 1;
+	color: #2B3F4C;
+
+}
+
+.captureLifeText {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #777777;
+
+}
+
+.downloadNowTitle {
+	font-style: Roboto Condensed;
+	font-weight: lighter;
+	font-size: 42px;
+	line-height: 1px;
+	color: #E77E04;
+
+}
+
+.downloadNowText {
+	font-style: Roboto;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #777777;
+
+}
+
+.supportTitle {
+
+}
+
+.privacyTerms {
+
+}
+
+.copyright {
+
+}
+
+/* Ben's notes 
+
+Use sprites site wide.*/
+
+/* Sprites */
+
+.fit_image {
+	width: 100%;
+}
+
+.logo:before {
+	background: url(../images/icon_sprite.png);
+	background-position: 0 0;
+	content: '';
+	display: block;
+	float: left;
+	height: 60px;
+	overflow: hidden;
+	width: 60px;
+}
+
+.feature:before {
+	background: url(../images/icon_sprite.png) no-repeat;
+	content: '';
+	display: block;
+	height: 60px;
+	overflow: hidden;
+	width: 60px;
+}
+
+.feature.tags:before {
+	background-position: 0 -120px;
+	height: 64px;
+	width: 64px;
+}
+
+.feature.cloud:before {
+	background-position: -80px -120px;
+	height: 52px;
+	width: 72px;
+}
+
+.feature.map:before {
+	background-position: -160px -120px;
+	height: 64px;
+	width: 50px;
+}
+
+
+/* Helpers */
+
+.fit_image {
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
