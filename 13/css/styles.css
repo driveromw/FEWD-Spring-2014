@@ -105,14 +105,26 @@
 }
 
 .supportTitle {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #2B3F4C;
 
 }
 
 .privacyTerms {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #777777;
 
 }
 
 .copyright {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #777777;
 
 }
 
@@ -138,10 +150,11 @@ Use sprites site wide.*/
 }
 
 .feature:before {
-	background: url(../images/icon_sprite.png) no-repeat;
+	background: url(../images/icon_sprite.png) no-repeat 0 0;
 	content: '';
 	display: block;
 	height: 60px;
+	margin: 0 20px 0 0;
 	overflow: hidden;
 	width: 60px;
 }
@@ -170,6 +183,8 @@ Use sprites site wide.*/
 .fit_image {
 	max-width: 100%;
 }
+
+
 
 
 
