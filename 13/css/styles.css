@@ -1,10 +1,21 @@
+.picticiousPro {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1;
+	color: #2B3F4C;
+}
+
+#pro {
+	font-weight: lighter;
+}
+
 .niceShotTitle {
 	font-family: Roboto Condensed;
 	font-size: 70px;
 	font-weight: lighter;
 	line-height: 1;
 	color: #ffffff;
-
 }
 
 .niceShotText {
@@ -12,14 +23,12 @@
 	font-size: 20px;
 	line-height: 1.5;
 	color: #ffffff;
-
 }
 
 .downloadNowButton {
 	font-family: Roboto;
 	font-size: 20px;
 	color: #E77E04;
-
 }
 
 .tagItAllTitle {
@@ -27,7 +36,6 @@
 	font-weight: lighter;
 	font-size: 26px;
 	color: #E77E04;
-
 }
 
 .tagItAllText {
@@ -35,7 +43,6 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: 777777;
-
 }
 
 .cloudSyncTitle {
@@ -43,7 +50,6 @@
 	font-weight: lighter;
 	font-size: 26px;
 	color: #E77E04;
-
 }
 
 .cloudSynchText {
@@ -51,7 +57,6 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: 777777;
-
 }
 
 .photoMapTitle {
@@ -59,7 +64,6 @@
 	font-weight: lighter;
 	font-size: 26px;
 	color: #E77E04;
-
 }
 
 .photoMapText {
@@ -67,7 +71,6 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: #777777;
-
 }
 
 .captureLifeTitle {
@@ -76,7 +79,6 @@
 	font-size: 36px;
 	line-height: 1;
 	color: #2B3F4C;
-
 }
 
 .captureLifeText {
@@ -84,7 +86,6 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: #777777;
-
 }
 
 .downloadNowTitle {
@@ -93,7 +94,6 @@
 	font-size: 42px;
 	line-height: 1px;
 	color: #E77E04;
-
 }
 
 .downloadNowText {
@@ -101,7 +101,6 @@
 	font-size: 18px;
 	line-height: 1.5;
 	color: #777777;
-
 }
 
 .supportTitle {
@@ -109,7 +108,6 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: #2B3F4C;
-
 }
 
 .privacyTerms {
@@ -117,7 +115,6 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: #777777;
-
 }
 
 .copyright {
@@ -125,7 +122,6 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: #777777;
-
 }
 
 /* Ben's notes 
