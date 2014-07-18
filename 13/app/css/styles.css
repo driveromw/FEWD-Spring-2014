@@ -1,3 +1,11 @@
+ header {
+	
+}
+
+.appNameSection {
+	
+}
+
 .picticiousPro {
 	font-family: Roboto;
 	font-weight: bold;
@@ -5,9 +13,14 @@
 	line-height: 1;
 	color: #2B3F4C;
 }
-
+	
 #pro {
 	font-weight: lighter;
+}
+
+.niceShotSection {
+	background: url(../images/intro_bg.jpg);
+	padding-bottom: 100px;
 }
 
 .niceShotTitle {
@@ -16,6 +29,7 @@
 	font-weight: lighter;
 	line-height: 1;
 	color: #ffffff;
+	margin-bottom: 20px;
 }
 
 .niceShotText {
@@ -23,12 +37,18 @@
 	font-size: 20px;
 	line-height: 1.5;
 	color: #ffffff;
+	padding-bottom: 40px;
 }
 
 .downloadNowButton {
 	font-family: Roboto;
 	font-size: 20px;
 	color: #E77E04;
+	background-color: #ffffff;
+	width: 200px;
+	height: 50px;
+	border: none;
+
 }
 
 .tagItAllTitle {
@@ -180,9 +200,56 @@ Use sprites site wide.*/
 	max-width: 100%;
 }
 
+@media screen and (min-width: 740px) {
+		.intro h1 {
+			font-size: 70px;
+		}
+}
+
+/*-------------------------------------------
+Mobile
+-------------------------------------------*/
+@media screen and (max-width: 500px) {
+	.picticiousPro {
+		text-align: center;
+	}
+	.downloadNowButton {
+		margin: 0 0 0 40px;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.picticiousPro {
+		
+	}
+
+}
+
+/*-------------------------------------------
+Tablet
+-------------------------------------------*/
+@media screen and (min-width: 740px) {
+	.phonePhoto {
+	background: url(../images/intro_phone.png) no-repeat;
+	float: right;
+	}
 
 
+}
 
+/*-------------------------------------------
+Desktop
+-------------------------------------------*/
+@media screen and (min-width: 980px) {
+
+}
+
+/*-------------------------------------------
+Desktop - Max
+-------------------------------------------*/
+@media screen and (min-width: 1220px) {
+
+}
 
 
 
