@@ -252,6 +252,9 @@ Tablet
 	float: right;
 	height: 556px;
 	width:328px;
+	position: absolute;
+	right: 20px;
+	top: -26px;
 
 	}
 	
