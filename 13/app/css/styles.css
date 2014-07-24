@@ -1,4 +1,4 @@
- header {
+  header {
 	
 }
 
@@ -15,8 +15,7 @@
 }
 
 .picticiousPro:before {
-	background: url(../images/icon_sprite.png);
-	no-repeat: 0 0;
+	background: url(../images/icon_sprite.png) no-repeat;
 	content: '';
 	display: block;
 	float: left;
@@ -40,6 +39,7 @@
 
 .niceShotSection .row {
 	position: relative;
+	padding: 25px 0 50px;
 }
 
 .niceShotTitle {
@@ -192,9 +192,9 @@ Use sprites site wide.*/
 	float: left;
 	height: 60px;
 	overflow: hidden;
-	width: 60px;*/
+	width: 60px;
 }
-
+*/
 .feature:before {
 	background: url(../images/icon_sprite.png) no-repeat 0 0;
 	content: '';
@@ -259,22 +259,47 @@ Mobile
 Tablet
 -------------------------------------------*/
 @media screen and (min-width: 740px) {
-	.niceShotSection:after {
-	background: url(../images/intro_phone.png) bo;
-	no-repeat: 0 0;
+
+	.phone:before {
+	background: url(../images/intro_phone.png) no-repeat center top;
+	bottom: 0;
 	content: '';
 	display: block;
 	float: right;
 	height: 554px;
 	width:322px;
 	position: absolute;
-	right: 20px;
+	right: 20px;	
 	padding-right: 170px; 
 
 	}
-	
-}
 
+	.featureSection:before {
+		background: url(../images/icon_sprite.png) no-repeat;
+		content: '';
+		display: block;
+		margin: 0 auto 20px;
+		overflow: hidden;
+	}
+
+	.featureSection.tag:before {
+		background-position: 0 -120px;
+		height: 64px;
+		width: 64px;
+	}
+
+	.featureSection.cloud:before {
+		background-position: 80 -114px;
+		height: 64px;
+		width: 72px;
+	}
+
+	.featureSection.photo:before {
+		background-position: -160px -120px;
+		height: 64px;
+		width: 50px;
+	}
+}
 /*-------------------------------------------
 Desktop
 -------------------------------------------*/
