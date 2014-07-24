@@ -34,10 +34,9 @@
 	background: url(../images/intro_bg.jpg) no-repeat center top;
 	padding-bottom: 100px;
 	background-color: #E77E04;
-
 }
 
-.niceShotSection .row {
+.niceShotSection .phone {
 	position: relative;
 }
 
@@ -258,8 +257,35 @@ Mobile
 }
 
 @media screen and (min-width: 500px) {
+
 	.picticiousPro {
 		
+	}
+
+	.featureSection:after {
+		background: url(../images/icon_sprite.png) no-repeat;
+		content: '';
+		display: block;
+		margin: 0 auto 20px;
+		overflow: hidden;
+	}
+
+	.featureSection.tagItAllTitle:after {
+		background-position: 0 -120px;
+		height: 64px;
+		width: 64px;
+	}
+
+	.featureSection.cloudSyncTitle:after {
+		background-position: 80 -114px;
+		height: 64px;
+		width: 72px;
+	}
+
+	.featureSection.photoMapTitle:after {
+		background-position: -160px -120px;
+		height: 64px;
+		width: 50px;
 	}
 
 }
@@ -274,14 +300,11 @@ Tablet
 	bottom: 0;
 	content: '';
 	display: block;
-	float: right;
 	height: 554px;
 	width:322px;
 	position: absolute;
 	right: 150px;	
-	padding-right: 170px; 
 	top: 31px;
-
 	}
 
 	.featureSection:before {
@@ -292,7 +315,7 @@ Tablet
 		overflow: hidden;
 	}
 
-	.featureSection.tag:before {
+	.featureSection .tag:before {
 		background-position: 0 -120px;
 		height: 64px;
 		width: 64px;
