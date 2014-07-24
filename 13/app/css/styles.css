@@ -39,7 +39,6 @@
 
 .niceShotSection .row {
 	position: relative;
-	padding: 25px 0 50px;
 }
 
 .niceShotTitle {
@@ -72,7 +71,9 @@
 	width: 200px;
 	height: 50px;
 	border: none;
-	border-radius: 10px;
+	border-radius: 5px;
+	line-height: 48px;
+	display: block;
 
 }
 
@@ -121,6 +122,14 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: #777777;
+}
+
+.captureLifeSection {
+	background-color: #E6E6E6;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 60px;
 }
 
 .captureLifeTitle {
@@ -260,8 +269,8 @@ Tablet
 -------------------------------------------*/
 @media screen and (min-width: 740px) {
 
-	.phone:before {
-	background: url(../images/intro_phone.png) no-repeat center top;
+	.niceShotSection:before {
+	background: url(../images/intro_phone.png) no-repeat center bottom;
 	bottom: 0;
 	content: '';
 	display: block;
@@ -269,8 +278,9 @@ Tablet
 	height: 554px;
 	width:322px;
 	position: absolute;
-	right: 20px;	
+	right: 150px;	
 	padding-right: 170px; 
+	top: 31px;
 
 	}
 
