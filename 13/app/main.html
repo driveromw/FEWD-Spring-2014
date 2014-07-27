@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 
 		<link href='http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
-
+<!--
 		<link href="bower_components/normalize-css/normalize.css" rel="stylesheet">
 		<link href="bower_components/Gridlock/fs.gridlock.css" rel="stylesheet">
 
@@ -13,8 +13,15 @@
 		<script src="bower_components/Boxer/jquery.fs.boxer.js"></script>
 		<link href="bower_components/Boxer/jquery.fs.boxer.css" rel="stylesheet">
 
+		<script src="js/main.js"></script>
+
 		<link href="css/styles.css" rel="stylesheet">
-		
+-->
+		<link href="css/site.min.css" rel="stylesheet">
+		<script src="js/site.min.js"></script>
+
+	
+
 		<title>Picticious</title>
 	</head>
 
@@ -22,7 +29,7 @@
 
 		<section class="appNameSection">
 			<div class="row">
-				<header class="mobile-full tablet-full desktop-full">`
+				<header class="mobile-full tablet-full desktop-full">
 
 					<h1 class="picticiousPro">Picticious<span id="pro">Pro</span></h1>
 					
@@ -44,19 +51,19 @@
 
 		<section class="featureSection row">
 			
-			<div class="tag mobile-full tablet-third desktop-third">
+			<div class="feature tags mobile-full tablet-third desktop-third">
 				<h3 class="tagItAllTitle">TAG IT ALL</h3>
 
 				<p class="tagItAllText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit aliquet felis, quis.</p>
 			</div>
 		
-			<div class=" cloud mobile-full tablet-third desktop-third">
+			<div class="feature cloud mobile-full tablet-third desktop-third">
 				<h3 class="cloudSyncTitle">CLOUD SYNC</h3>
 
 				<p class="cloudSynchText">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
 			</div>
 		
-			<div class=" photo mobile-full tablet-third desktop-third">
+			<div class="feature photo mobile-full tablet-third desktop-third">
 				<h3 class="photoMapTitle">PHOTO MAP</h3>
 
 				<p class="photoMapText">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Ligula porta felis.</p>
@@ -66,43 +73,44 @@
 
 		<section class="captureLifeSection">
 			<div class="row">
-				<div class="mobile-full tablet-4 desktop-6">
+				<div class="photos mobile-full tablet-4 desktop-6">
 					<h3 class="captureLifeTitle">Capture Life</h3>
 
 					<p class="captureLifeText">Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 
-					<a href="images/photos/01.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
-						<img src="images/photos/thumb_01.jpg" class="fit_image">
-					</a>
+					<div class="thumbs">
+						<a href="images/photos/01.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
+							<img src="images/photos/thumb_01.jpg" class="fit_image">
+						</a>
 
-					<a href="images/photos/02.jpg"class="boxer mobile-half tablet-1 desktop-2" title="Caption">
-						<img src="images/photos/thumb_02.jpg" class="fit_image">
-					</a>
+						<a href="images/photos/02.jpg"class="boxer mobile-half tablet-1 desktop-2" title="Caption">
+							<img src="images/photos/thumb_02.jpg" class="fit_image">
+						</a>
 
-					<a href="images/photos/03.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
-						<img src="images/photos/thumb_03.jpg" class="fit_image">
-					</a>
+						<a href="images/photos/03.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
+							<img src="images/photos/thumb_03.jpg" class="fit_image">
+						</a>
 
-					<a href="images/photos/04.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
-						<img src="images/photos/thumb_04.jpg" class="fit_image">
-					</a>
+						<a href="images/photos/04.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
+							<img src="images/photos/thumb_04.jpg" class="fit_image">
+						</a>
 
-					<a href="images/photos/05.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
-						<img src="images/photos/thumb_05.jpg" class="fit_image">
-					</a>
+						<a href="images/photos/05.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
+							<img src="images/photos/thumb_05.jpg" class="fit_image">
+						</a>
 
-					<a href="images/photos/06.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
-						<img src="images/photos/thumb_06.jpg" class="fit_image">
-					</a>
+						<a href="images/photos/06.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
+							<img src="images/photos/thumb_06.jpg" class="fit_image">
+						</a>
 
-					<a href="images/photos/07.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
-						<img src="images/photos/thumb_07.jpg" class="fit_image">
-					</a>
+						<a href="images/photos/07.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
+							<img src="images/photos/thumb_07.jpg" class="fit_image">
+						</a>
 
-					<a href="images/photos/08.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
-						<img src="images/photos/thumb_08.jpg" class="fit_image">
-					</a>
-
+						<a href="images/photos/08.jpg" class="boxer mobile-half tablet-1 desktop-2" title="Caption">
+							<img src="images/photos/thumb_08.jpg" class="fit_image">
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -113,6 +121,12 @@
 					<h3 class="downloadNowTitle">Download Now</h3>
 
 					<p class="downloadNowText">Nullam id dolor id nibh ultricies vehicula deposit quid pro quo hic escorol. </p>
+				</div>
+
+				<div class="mobile-full tablet-2 desktop-4 appStores">
+					<a href="#" class="appLink appStoreLink">App Store</a>
+					<a href="#" class="appLink googlePlayLink">Google Play</a>
+					<a href="#" class="appLink amazonLink">Amazon</a>
 				</div>
 			</div>
 		</section>

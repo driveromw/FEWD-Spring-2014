@@ -32,13 +32,14 @@
 
 .niceShotSection {
 	background: url(../images/intro_bg.jpg) no-repeat center top;
-	padding-bottom: 100px;
+	padding-bottom: 47px;
 	background-color: #E77E04;
-}
-
-.niceShotSection .phone {
 	position: relative;
 }
+
+/*.niceShotSection .phone {
+	position: relative;
+}*/
 
 .niceShotTitle {
 	font-family: Roboto Condensed;
@@ -225,10 +226,25 @@ Use sprites site wide.*/
 	width: 72px;
 }
 
-.feature.map:before {
+.feature.photo:before {
 	background-position: -160px -120px;
 	height: 64px;
 	width: 50px;
+}
+
+ .appLink {
+	background: url(../images/icon_sprite.png);
+	display: block;
+	height: 60px;
+	margin: 0 2px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 120px;
+}
+
+.appStores .appLink {
+	
 }
 
 .footer {
@@ -336,7 +352,6 @@ Tablet
 	width:322px;
 	position: absolute;
 	right: 150px;	
-	top: 31px;
 	}
 
 	.featureSection:before {
@@ -364,6 +379,7 @@ Tablet
 		height: 64px;
 		width: 50px;
 	}
+
 }
 /*-------------------------------------------
 Desktop
