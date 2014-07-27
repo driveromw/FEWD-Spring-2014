@@ -3,11 +3,12 @@
 }
 
 .appNameSection {
+	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
 .picticiousPro {
-	font-family: Roboto;
+	/*font-family: Roboto;*/
 	font-weight: bold;
 	font-size: 30px;
 	line-height: 1;
@@ -24,6 +25,8 @@
 	margin: 0 20px 0 0;
 	overflow: hidden;
 	padding-left: 20px;
+	position: relative;
+	top: -15px;
 }
 	
 #pro {
@@ -48,6 +51,8 @@
 	line-height: 1;
 	color: #ffffff;
 	margin-bottom: 20px;
+	min-width: 400px;
+	max-height: 70px;
 }
 
 .niceShotText {
@@ -59,6 +64,8 @@
 	padding-bottom: 40px;
 	padding-right: 40px;
 	position: relative;
+	font-weight: lighter;
+
 }
 
 
@@ -68,7 +75,7 @@
 	font-size: 20px;
 	color: #E77E04;
 	background-color: #ffffff;
-	width: 200px;
+	width: 284px;
 	height: 50px;
 	border: none;
 	border-radius: 5px;
@@ -204,7 +211,12 @@ Use sprites site wide.*/
 	width: 60px;
 }
 */
-.feature:before {
+
+.featureSection {
+	padding-top: 60px;
+}
+
+.feature:after {
 	background: url(../images/icon_sprite.png) no-repeat 0 0;
 	content: '';
 	display: block;
@@ -212,21 +224,25 @@ Use sprites site wide.*/
 	margin: 0 20px 0 0;
 	overflow: hidden;
 	width: 60px;
+	float: right;
+	top: -170px;
+	right: 57px;
+	position: relative;
 }
 
-.feature.tags:before {
+.feature.tags:after {
 	background-position: 0 -120px;
 	height: 64px;
 	width: 64px;
 }
 
-.feature.cloud:before {
+.feature.cloud:after {
 	background-position: -80px -120px;
 	height: 52px;
 	width: 72px;
 }
 
-.feature.photo:before {
+.feature.photo:after {
 	background-position: -160px -120px;
 	height: 64px;
 	width: 50px;
@@ -299,9 +315,7 @@ Mobile
 	.picticiousPro {
 		text-align: center;
 	}
-	.downloadNowButton {
-		margin: 0 0 0 40px;
-	}
+	
 }
 
 @media screen and (min-width: 500px) {
