@@ -1,5 +1,9 @@
 /*global module:false*/
+
+var timer = require("grunt-timer");
+
 module.exports = function(grunt) {
+  timer.init(grunt);
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
