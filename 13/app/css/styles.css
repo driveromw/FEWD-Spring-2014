@@ -3,8 +3,8 @@
 }
 
 .appNameSection {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .picticiousPro {
@@ -68,8 +68,6 @@
 
 }
 
-
-
 .downloadNowButton {
 	font-family: Roboto;
 	font-size: 20px;
@@ -94,6 +92,7 @@
 	font-weight: lighter;
 	font-size: 26px;
 	color: #E77E04;
+
 }
 
 .tagItAllText {
@@ -115,6 +114,10 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: #777777;
+}
+
+.photoMap {
+	height: 200px;
 }
 
 .photoMapTitle {
@@ -188,6 +191,7 @@
 	font-size: 16px;
 	line-height: 1.5;
 	color: #777777;
+	margin-top: 6px;
 }
 
 /* Ben's notes 
@@ -220,53 +224,83 @@ Use sprites site wide.*/
 	background: url(../images/icon_sprite.png) no-repeat 0 0;
 	content: '';
 	display: block;
-	height: 60px;
+	height: 40px;
 	margin: 0 20px 0 0;
 	overflow: hidden;
-	width: 60px;
+	width: 40px;
 	float: right;
-	top: -170px;
-	right: 57px;
+	top: -145px;
+	right: 90px;
 	position: relative;
 }
 
 .feature.tags:after {
-	background-position: 0 -120px;
-	height: 64px;
-	width: 64px;
+	background-position: 0 -80px;
+	height: 40px;
+	width: 40px;
 }
 
 .feature.cloud:after {
-	background-position: -80px -120px;
-	height: 52px;
-	width: 72px;
+	background-position: -40px -80px;
+	height: 40px;
+	width: 40px;
 }
 
 .feature.photo:after {
-	background-position: -160px -120px;
-	height: 64px;
-	width: 50px;
+	background-position: -80px -80px;
+	height: 40px;
+	width: 40px;
+}
+
+.appButtons {
+	background-color: #000000;
+	border-radius: 5px;
 }
 
  .appLink {
 	background: url(../images/icon_sprite.png);
 	display: block;
-	height: 60px;
-	margin: 0 2px;
+	height: 50px;
+	margin: 12px 2px;
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
-	width: 120px;
+	width: 128px;
+	background-color: #000000;
+	position: relative;
+	left: 80px;
+
 }
 
-.appStores .appLink {
-	
+.appStores {
+	margin-bottom: 40px;
+}
+
+.appStores .appStoreLink {
+	background-position: 0 -200px;
+}
+
+.appStores .googlePlayLink {
+	background-position: 0 -260px;
+}
+
+.appStores .amazonLink {
+	background-position: 0 -320px;
 }
 
 .footer {
 	border-top: 1px solid #ccc;
 	padding: 20px 0;
 	text-align: center;
+}
+
+.footerLink {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #2B3F4C;
+	text-decoration: none;
+	padding-left: 10px;
 }
 
 .footer .socialNav {
@@ -324,6 +358,10 @@ Mobile
 		
 	}
 
+	.feature {
+		text-align: center;
+	}
+
 	.featureSection:after {
 		background: url(../images/icon_sprite.png) no-repeat;
 		content: '';
@@ -358,42 +396,74 @@ Tablet
 @media screen and (min-width: 740px) {
 
 	.niceShotSection:before {
-	background: url(../images/intro_phone.png) no-repeat center bottom;
+	background: url(../images/intro_phone.png) no-repeat center top;
 	bottom: 0;
 	content: '';
 	display: block;
-	height: 554px;
+	height: 519px;
 	width:322px;
 	position: absolute;
-	right: 150px;	
+	right: -61px;	
 	}
 
-	.featureSection:before {
-		background: url(../images/icon_sprite.png) no-repeat;
-		content: '';
-		display: block;
-		margin: 0 auto 20px;
-		overflow: hidden;
-	}
+	.featureSection {
+	padding-top: 80px;
 
-	.featureSection .tag:before {
+}
+
+	.feature:before {
+	background: url(../images/icon_sprite.png) no-repeat 0 0;
+	content: '';
+	display: block;
+	height: 80px;
+	overflow: hidden;
+	width: 80px;
+	float: right;
+	top: -42px;
+	right: 56px;
+	position: relative;
+}
+
+	.feature.tags:before {
 		background-position: 0 -120px;
-		height: 64px;
-		width: 64px;
+		
 	}
 
-	.featureSection.cloud:before {
-		background-position: 80 -114px;
-		height: 64px;
-		width: 72px;
+	.feature.cloud:before {
+		background-position: -80px -120px;
+		
 	}
 
-	.featureSection.photo:before {
+	.feature.photo:before {
 		background-position: -160px -120px;
-		height: 64px;
-		width: 50px;
+		
 	}
 
+	.feature.tags:after {
+		display: none;
+	}
+
+	.feature.cloud:after {
+		display: none;
+	}
+
+	.feature.photo:after {
+		display: none;
+	}
+
+	.downloadNowButton {
+		width: 240px;
+	}
+
+	.tagItAllTitle {
+		text-align: center;
+	}
+/*
+	.thumbs {
+		float: right;
+		position: absolute;
+	}
+*/
 }
 /*-------------------------------------------
 Desktop
