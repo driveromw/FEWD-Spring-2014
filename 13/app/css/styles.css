@@ -255,6 +255,8 @@ Use sprites site wide.*/
 .appButtons {
 	background-color: #000000;
 	border-radius: 5px;
+	margin-bottom: 10px;
+	height: 70px;
 }
 
  .appLink {
@@ -272,9 +274,9 @@ Use sprites site wide.*/
 
 }
 
-.appStores {
+/*.appStores {
 	margin-bottom: 40px;
-}
+}*/
 
 .appStores .appStoreLink {
 	background-position: 0 -200px;
@@ -332,8 +334,10 @@ Use sprites site wide.*/
 
 /* Helpers */
 
-.fit_image {
+fit_image {
 	max-width: 100%;
+
+
 }
 
 @media screen and (min-width: 740px) {
@@ -406,10 +410,20 @@ Tablet
 	right: -61px;	
 	}
 
+	.captureLifeText {
+		width: 434px;
+	}
+
 	.featureSection {
 	padding-top: 80px;
 
-}
+	}
+
+	.featureTitle {
+	display: inline-block;
+	width: 140px;
+	margin-bottom: 10px;
+	}
 
 	.feature:before {
 	background: url(../images/icon_sprite.png) no-repeat 0 0;
@@ -451,6 +465,10 @@ Tablet
 		display: none;
 	}
 
+	.downloadNowTitle {
+		padding-left: 102px;
+	}
+
 	.downloadNowButton {
 		width: 240px;
 	}
@@ -458,6 +476,38 @@ Tablet
 	.tagItAllTitle {
 		text-align: center;
 	}
+
+	.appStores {
+	}
+
+	.thumbs {
+		display: inline-block;
+		width: 714px;
+	}
+
+	.appLink {
+	background: url(../images/icon_sprite.png);
+	display: block;
+	height: 50px;
+	margin: 12px 2px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 128px;
+	background-color: #000000;
+	position: relative;
+	left: 50px;
+	}
+
+	.appStoresRow {
+		margin-bottom: 40px;
+	}
+
+	.footerNav {
+		float: left;
+
+	}
+
 /*
 	.thumbs {
 		float: right;
@@ -469,6 +519,22 @@ Tablet
 Desktop
 -------------------------------------------*/
 @media screen and (min-width: 980px) {
+	.niceShotSection:before {
+	background: url(../images/intro_phone.png) no-repeat center top;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 519px;
+	width:322px;
+	position: absolute;
+	right: 64px;	
+	}
+
+	.feature:before {
+		right: 86px;
+	}
+
+
 
 }
 
@@ -476,6 +542,41 @@ Desktop
 Desktop - Max
 -------------------------------------------*/
 @media screen and (min-width: 1220px) {
+	.niceShotSection:before {
+	background: url(../images/intro_phone.png) no-repeat center top;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 519px;
+	width:322px;
+	position: absolute;
+	right: 151px;
+	top: -100px;	
+	}
+
+	.niceShotSection {
+		padding-bottom: 71px;
+	}
+
+	.featureSection {
+		padding-top: 122px;
+	}
+
+	.feature:before {
+		right: 136px;
+	}
+
+	.appLink {
+		left: 130px;
+	}
+
+	.captureLifeSection {
+		margin-bottom: 130px;
+	}
+
+	.downloadNowTitle {
+		padding-left: 146px;
+	}
 
 }
 
