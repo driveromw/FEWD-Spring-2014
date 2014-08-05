@@ -267,10 +267,10 @@ Use sprites site wide.*/
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
-	width: 128px;
+	width: 164px;
 	background-color: #000000;
 	position: relative;
-	left: 80px;
+	left: 34px;
 
 }
 
@@ -482,7 +482,7 @@ Tablet
 
 	.thumbs {
 		display: inline-block;
-		width: 714px;
+		width: 722px;
 	}
 
 	.appLink {
@@ -493,10 +493,10 @@ Tablet
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
-	width: 128px;
+	width: 162px;
 	background-color: #000000;
 	position: relative;
-	left: 50px;
+	left: 10px;
 	}
 
 	.appStoresRow {
@@ -507,6 +507,23 @@ Tablet
 		float: left;
 
 	}
+
+	.tagItAllTitle {
+		position: relative;
+		right: -52px;
+	}
+
+	.cloudSyncTitle {
+		position: relative;
+		right: -52px;
+	}
+
+	.photoMapTitle {
+		position: relative;
+		right: -52px;
+	}
+
+
 
 /*
 	.thumbs {
@@ -533,6 +550,11 @@ Desktop
 	.feature:before {
 		right: 86px;
 	}
+
+	.appLink {
+		left: 42px;
+	}
+
 
 
 
@@ -564,10 +586,6 @@ Desktop - Max
 
 	.feature:before {
 		right: 136px;
-	}
-
-	.appLink {
-		left: 130px;
 	}
 
 	.captureLifeSection {
